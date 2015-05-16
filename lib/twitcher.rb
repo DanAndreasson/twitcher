@@ -8,4 +8,9 @@ module Twitcher
   end
 end
 
-Twitcher::Twitcher.new
+twitch = Twitcher::Twitcher.new
+dray = twitch.get_streamer "drayswe"
+puts "dray: #{dray.game}"
+puts "#"*100
+silas = twitch.get_streamer "silasftw"
+puts "silas: #{silas.game}"
