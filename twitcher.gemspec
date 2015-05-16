@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Twitcher is here to ease integration with Twitch.tv"
   s.authors     = ["Dan Andreasson"]
   s.email       = "dan@danandreasson.se"
-  s.files       = ["lib/twitcher.rb"]
+  s.files       = ["lib/twitcher.rb", "lib/twitcher/request.rb"]
   s.homepage    = "http://rubygems.org/gems/twitcher"
   s.license     = "MIT"
 end
