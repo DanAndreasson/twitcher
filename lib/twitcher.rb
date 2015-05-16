@@ -1,9 +1,9 @@
-require_relative 'twitcher/twitch_builder'
+require_relative 'twitcher/twitch_interface'
 
 module Twitcher
   class Twitcher
     def self.new
-      TwitchBuilder.new
+      TwitchInterface.new
     end
   end
 end

@@ -1,6 +1,14 @@
 module Twitcher
   class StreamerNilObject
-    def self.game
+    def initialize(name)
+      @name = name
+    end
+
+    def name
+      @name
+    end
+
+    def game
       ""
     end
   end
